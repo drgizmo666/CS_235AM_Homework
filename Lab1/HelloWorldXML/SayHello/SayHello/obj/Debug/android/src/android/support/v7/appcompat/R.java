@@ -1070,7 +1070,7 @@ containing a value of this type.
         public static int abc_textfield_searchview_right_holo_light=0x7f020056;
     }
     public static final class id {
-        public static int aButton=0x7f0a003d;
+        public static int aButton=0x7f0a003f;
         public static int action_bar=0x7f0a001c;
         public static int action_bar_activity_content=0x7f0a0001;
         public static int action_bar_container=0x7f0a001b;
@@ -1084,10 +1084,12 @@ containing a value of this type.
         public static int action_mode_close_button=0x7f0a0024;
         public static int activity_chooser_view_content=0x7f0a0025;
         public static int always=0x7f0a000f;
-        public static int bButton=0x7f0a003e;
+        public static int bButton=0x7f0a0040;
         public static int beginning=0x7f0a0016;
+        public static int buttonWrapper=0x7f0a003e;
         public static int checkbox=0x7f0a002d;
         public static int collapseActionView=0x7f0a0010;
+        public static int content=0x7f0a003c;
         public static int default_activity_button=0x7f0a0028;
         public static int dialog=0x7f0a0014;
         public static int disableHome=0x7f0a0009;
@@ -1096,7 +1098,7 @@ containing a value of this type.
         public static int end=0x7f0a0017;
         public static int expand_activities_button=0x7f0a0026;
         public static int expanded_menu=0x7f0a002c;
-        public static int helloLabel=0x7f0a003c;
+        public static int helloLabel=0x7f0a003d;
         public static int home=0x7f0a0000;
         public static int homeAsUp=0x7f0a000a;
         public static int icon=0x7f0a002a;

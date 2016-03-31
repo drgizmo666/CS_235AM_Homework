@@ -811,8 +811,8 @@ namespace SayHello
 		public partial class Id
 		{
 			
-			// aapt resource value: 0x7f0a003d
-			public const int aButton = 2131361853;
+			// aapt resource value: 0x7f0a003f
+			public const int aButton = 2131361855;
 			
 			// aapt resource value: 0x7f0a001c
 			public const int action_bar = 2131361820;
@@ -853,17 +853,23 @@ namespace SayHello
 			// aapt resource value: 0x7f0a000f
 			public const int always = 2131361807;
 			
-			// aapt resource value: 0x7f0a003e
-			public const int bButton = 2131361854;
+			// aapt resource value: 0x7f0a0040
+			public const int bButton = 2131361856;
 			
 			// aapt resource value: 0x7f0a0016
 			public const int beginning = 2131361814;
+			
+			// aapt resource value: 0x7f0a003e
+			public const int buttonWrapper = 2131361854;
 			
 			// aapt resource value: 0x7f0a002d
 			public const int checkbox = 2131361837;
 			
 			// aapt resource value: 0x7f0a0010
 			public const int collapseActionView = 2131361808;
+			
+			// aapt resource value: 0x7f0a003c
+			public const int content = 2131361852;
 			
 			// aapt resource value: 0x7f0a0028
 			public const int default_activity_button = 2131361832;
@@ -889,8 +895,8 @@ namespace SayHello
 			// aapt resource value: 0x7f0a002c
 			public const int expanded_menu = 2131361836;
 			
-			// aapt resource value: 0x7f0a003c
-			public const int helloLabel = 2131361852;
+			// aapt resource value: 0x7f0a003d
+			public const int helloLabel = 2131361853;
 			
 			// aapt resource value: 0x7f0a0000
 			public const int home = 2131361792;
