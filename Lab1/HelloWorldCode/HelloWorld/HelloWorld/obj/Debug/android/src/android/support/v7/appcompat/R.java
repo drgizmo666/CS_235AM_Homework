@@ -1229,9 +1229,6 @@ containing a value of this type.
          */
         public static int abc_shareactionprovider_share_with_application=0x7f0b000b;
         public static int app_name=0x7f0b000d;
-        public static int helloButtonText=0x7f0b000e;
-        public static int helloLabelText=0x7f0b0010;
-        public static int resetButtonText=0x7f0b000f;
     }
     public static final class style {
         /**  Mimic text appearance in select_dialog_item.xml 

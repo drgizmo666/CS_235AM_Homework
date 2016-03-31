@@ -2,21 +2,35 @@
 using Android.Widget;
 using Android.OS;
 
+
 namespace SayHello
 {
 	[Activity (Label = "SayHello", MainLauncher = true, Icon = "@mipmap/icon")]
 	public class MainActivity : Activity
 	{
-		int count = 1;
-
 		protected override void OnCreate (Bundle bundle)
 		{
 			base.OnCreate (bundle);
 
-			var layout = new LinearLayout (this);
-			layout.Orientation = Orientation.Vertical;
+			SetContentView (Resource.Layout.Main);
 
-			var aLabel = new TextView (this);
+			var aButton = FindViewById<Button> (Resource.Id.aButton);
+			var aLabel = FindViewById<TextView> (Resource.Id.helloLabel);
+			var bButton = FindViewById<Button> (Resource.Id.bButton);
+			//set bButtons enable to false
+			bButton.Enabled = false;
+ 
+			aButton.Click += (sender, e) => {
+				aLabel.SetText(Resource.String.sayHello);
+				aButton.Enabled = false;
+				bButton.Enabled = true;
+			};
+
+			bButton.Click += (sender, e) => {
+				aLabel.SetText(Resource.String.androidHello);
+				aButton.Enabled = true;
+				bButton.Enabled = false;
+			};
 		}
 	}
 }

@@ -1,1 +1,1 @@
-<resources><string name="hello">Hello World, Click Me!</string><string name="app_name">SayHello</string></resources>
+<resources><string name="app_name">SayHello</string><string name="androidHello">Hello Xamarin.Android</string><string name="helloButton">Say Hello</string><string name="resetButton">Reset</string><string name="sayHello">Hello From Button</string></resources>

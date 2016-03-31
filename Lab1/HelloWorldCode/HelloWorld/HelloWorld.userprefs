@@ -1,9 +1,9 @@
 ﻿<Properties StartupItem="HelloWorld\HelloWorld.csproj">
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Android.LGH811f8322b65" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Android.Nexus 7 (Marshmallow)" />
   <MonoDevelop.Ide.Workbench ActiveDocument="HelloWorld\MainActivity.cs">
     <Files>
-      <File FileName="HelloWorld\MainActivity.cs" Line="31" Column="26" />
-      <File FileName="HelloWorld\Resources\values\Strings.xml" Line="4" Column="51" />
+      <File FileName="HelloWorld\MainActivity.cs" Line="45" Column="4" />
+      <File FileName="HelloWorld\Resources\values\Strings.xml" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

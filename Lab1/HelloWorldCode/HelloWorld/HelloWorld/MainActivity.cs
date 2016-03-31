@@ -19,7 +19,7 @@ namespace HelloWorld
 			//Old Code
 			//aLabel.Text = "Hello, Xamarin.Android";
 			//Set aLabel text using the xml string resources
-			aLabel.SetText(Resource.String.helloLabelText);
+			aLabel.Text = "Hello Xamarin.Android";
 
 			var aButton = new Button (this);
 			var bButton = new Button (this);
@@ -27,7 +27,7 @@ namespace HelloWorld
 			//old code
 			//aButton.Text = "Say Hello";
 			//Set aButton Text using the xml string resources
-			aButton.SetText(Resource.String.helloButtonText);
+			aButton.Text = "Say Hello";
 			bButton.Text = "Reset";
 
 			aButton.Click += (sender, e) => {
@@ -37,7 +37,7 @@ namespace HelloWorld
 			};
 
 			bButton.Click += (sender, e) => {
-				aLabel.SetText(Resource.String.helloLabelText);
+				aLabel.Text = "Hello Xamarin.Android";
 				aButton.Enabled = true;
 				bButton.Enabled = false;
 			};

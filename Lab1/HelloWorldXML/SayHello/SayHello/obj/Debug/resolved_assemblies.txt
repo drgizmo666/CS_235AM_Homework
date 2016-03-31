@@ -1,0 +1,11 @@
+C:\Users\james\Documents\GitHub\CS_235AM_Homework\Lab1\HelloWorldXML\SayHello\SayHello\obj\Debug\assemblies\SayHello.dll
+C:\Users\james\Documents\GitHub\CS_235AM_Homework\Lab1\HelloWorldXML\SayHello\SayHello\obj\Debug\assemblies\Mono.Android.dll
+C:\Users\james\Documents\GitHub\CS_235AM_Homework\Lab1\HelloWorldXML\SayHello\SayHello\obj\Debug\assemblies\mscorlib.dll
+C:\Users\james\Documents\GitHub\CS_235AM_Homework\Lab1\HelloWorldXML\SayHello\SayHello\obj\Debug\assemblies\System.Core.dll
+C:\Users\james\Documents\GitHub\CS_235AM_Homework\Lab1\HelloWorldXML\SayHello\SayHello\obj\Debug\assemblies\System.dll
+C:\Users\james\Documents\GitHub\CS_235AM_Homework\Lab1\HelloWorldXML\SayHello\SayHello\obj\Debug\assemblies\System.Xml.dll
+C:\Users\james\Documents\GitHub\CS_235AM_Homework\Lab1\HelloWorldXML\SayHello\SayHello\obj\Debug\assemblies\Xamarin.Android.Support.v13.dll
+C:\Users\james\Documents\GitHub\CS_235AM_Homework\Lab1\HelloWorldXML\SayHello\SayHello\obj\Debug\assemblies\Xamarin.Android.Support.v4.dll
+C:\Users\james\Documents\GitHub\CS_235AM_Homework\Lab1\HelloWorldXML\SayHello\SayHello\obj\Debug\assemblies\Xamarin.Android.Support.v7.AppCompat.dll
+C:\Users\james\Documents\GitHub\CS_235AM_Homework\Lab1\HelloWorldXML\SayHello\SayHello\obj\Debug\assemblies\System.Runtime.Serialization.dll
+C:\Users\james\Documents\GitHub\CS_235AM_Homework\Lab1\HelloWorldXML\SayHello\SayHello\obj\Debug\assemblies\System.ServiceModel.Internals.dll
