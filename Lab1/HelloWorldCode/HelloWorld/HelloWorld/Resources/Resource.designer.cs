@@ -1169,6 +1169,9 @@ namespace HelloWorld
 			// aapt resource value: 0x7f0b000d
 			public const int app_name = 2131427341;
 			
+			// aapt resource value: 0x7f0b000e
+			public const int helloText = 2131427342;
+			
 			static String()
 			{
 				global::Android.Runtime.ResourceIdManager.UpdateIdValues();

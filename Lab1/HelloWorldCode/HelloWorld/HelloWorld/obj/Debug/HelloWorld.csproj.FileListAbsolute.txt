@@ -5,7 +5,6 @@ C:\Users\james\Documents\GitHub\CS_235AM_Homework\Lab1\HelloWorldCode\HelloWorld
 C:\Users\james\Documents\GitHub\CS_235AM_Homework\Lab1\HelloWorldCode\HelloWorld\HelloWorld\bin\Debug\Xamarin.Android.Support.v13.dll
 C:\Users\james\Documents\GitHub\CS_235AM_Homework\Lab1\HelloWorldCode\HelloWorld\HelloWorld\bin\Debug\Xamarin.Android.Support.v4.dll
 C:\Users\james\Documents\GitHub\CS_235AM_Homework\Lab1\HelloWorldCode\HelloWorld\HelloWorld\bin\Debug\Xamarin.Android.Support.v7.AppCompat.dll
-C:\Users\james\Documents\GitHub\CS_235AM_Homework\Lab1\HelloWorldCode\HelloWorld\HelloWorld\obj\Debug\HelloWorld.csprojResolveAssemblyReference.cache
 C:\Users\james\Documents\GitHub\CS_235AM_Homework\Lab1\HelloWorldCode\HelloWorld\HelloWorld\obj\Debug\HelloWorld.dll
 C:\Users\james\Documents\GitHub\CS_235AM_Homework\Lab1\HelloWorldCode\HelloWorld\HelloWorld\obj\Debug\HelloWorld.pdb
 C:\Users\james\Documents\GitHub\CS_235AM_Homework\Lab1\HelloWorldCode\HelloWorld\HelloWorld\obj\Debug\android\bin\gepw.helloworld.apk

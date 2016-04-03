@@ -31,7 +31,7 @@ namespace HelloWorld
 			resetButton.Text = "Reset";
 
 			helloButton.Click += (sender, e) => {
-				mainLabel.Text = "Hello from button";
+				mainLabel.SetText(Resource.String.helloText);
 				helloButton.Enabled = false;
 				resetButton.Enabled = true;
 			};
