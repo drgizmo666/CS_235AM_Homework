@@ -14,22 +14,22 @@ namespace SayHello
 
 			SetContentView (Resource.Layout.Main);
 
-			var aButton = FindViewById<Button> (Resource.Id.aButton);
-			var aLabel = FindViewById<TextView> (Resource.Id.helloLabel);
-			var bButton = FindViewById<Button> (Resource.Id.bButton);
+			var helloButton = FindViewById<Button> (Resource.Id.aButton);
+			var mainLabel = FindViewById<TextView> (Resource.Id.helloLabel);
+			var resetButton = FindViewById<Button> (Resource.Id.bButton);
 			//set bButtons enable to false
-			bButton.Enabled = false;
+			resetButton.Enabled = false;
  
-			aButton.Click += (sender, e) => {
-				aLabel.SetText(Resource.String.sayHello);
-				aButton.Enabled = false;
-				bButton.Enabled = true;
+			helloButton.Click += (sender, e) => {
+				mainLabel.SetText(Resource.String.sayHello);
+				helloButton.Enabled = false;
+				resetButton.Enabled = true;
 			};
 
-			bButton.Click += (sender, e) => {
-				aLabel.SetText(Resource.String.androidHello);
-				aButton.Enabled = true;
-				bButton.Enabled = false;
+			resetButton.Click += (sender, e) => {
+				mainLabel.SetText(Resource.String.androidHello);
+				helloButton.Enabled = true;
+				resetButton.Enabled = false;
 			};
 		}
 	}

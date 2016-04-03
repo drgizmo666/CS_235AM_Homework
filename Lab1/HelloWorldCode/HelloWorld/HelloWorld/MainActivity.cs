@@ -15,36 +15,36 @@ namespace HelloWorld
 			var layout = new LinearLayout(this);
 			layout.Orientation = Orientation.Vertical;
 
-			var aLabel = new TextView (this);
+			var mainLabel = new TextView (this);
 			//Old Code
 			//aLabel.Text = "Hello, Xamarin.Android";
 			//Set aLabel text using the xml string resources
-			aLabel.Text = "Hello Xamarin.Android";
+			mainLabel.Text = "Hello Xamarin.Android";
 
-			var aButton = new Button (this);
-			var bButton = new Button (this);
-			bButton.Enabled = false;
+			var helloButton = new Button (this);
+			var resetButton = new Button (this);
+			resetButton.Enabled = false;
 			//old code
 			//aButton.Text = "Say Hello";
 			//Set aButton Text using the xml string resources
-			aButton.Text = "Say Hello";
-			bButton.Text = "Reset";
+			helloButton.Text = "Say Hello";
+			resetButton.Text = "Reset";
 
-			aButton.Click += (sender, e) => {
-				aLabel.Text = "Hello from button";
-				aButton.Enabled = false;
-				bButton.Enabled = true;
+			helloButton.Click += (sender, e) => {
+				mainLabel.Text = "Hello from button";
+				helloButton.Enabled = false;
+				resetButton.Enabled = true;
 			};
 
-			bButton.Click += (sender, e) => {
-				aLabel.Text = "Hello Xamarin.Android";
-				aButton.Enabled = true;
-				bButton.Enabled = false;
+			resetButton.Click += (sender, e) => {
+				mainLabel.Text = "Hello Xamarin.Android";
+				helloButton.Enabled = true;
+				resetButton.Enabled = false;
 			};
 
-			layout.AddView (aLabel);
-			layout.AddView (aButton);
-			layout.AddView (bButton);
+			layout.AddView (mainLabel);
+			layout.AddView (helloButton);
+			layout.AddView (resetButton);
 			SetContentView (layout);
 		}
 	}
