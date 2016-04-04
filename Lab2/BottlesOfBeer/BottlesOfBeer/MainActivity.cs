@@ -17,6 +17,8 @@ namespace BottlesOfBeer
 			SetContentView(Resource.Layout.Main);
 			var takeOne = FindViewById<Button> (Resource.Id.takeOne);
 			var takeTwo = FindViewById<Button> (Resource.Id.takeTwo);
+			var imgView = FindViewById<ImageView>(Resource.Id.poster);
+			imgView.SetImageResource (Resource.Drawable.beer);
 
 			takeOne.Click += delegate {
 				//StartActivity (typeof(WallActivity));
