@@ -1,0 +1,13 @@
+﻿<Properties StartupItem="BottlesOfBeer\BottlesOfBeer.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Android.Nexus 10 (KitKat)" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="BottlesOfBeer\WallActivity.cs">
+    <Files>
+      <File FileName="BottlesOfBeer\WallActivity.cs" Line="30" Column="46" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.BottlesOfBeer AndroidDesignerPreferredDevice="Nexus 4" />
+</Properties>

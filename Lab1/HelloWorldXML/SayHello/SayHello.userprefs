@@ -1,6 +1,6 @@
 ﻿<Properties StartupItem="SayHello\SayHello.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Android.LGH811f8322b65" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="SayHello\MainActivity.cs">
+  <MonoDevelop.Ide.Workbench>
     <Files>
       <File FileName="SayHello\MainActivity.cs" Line="24" Column="15" />
       <File FileName="SayHello\Resources\values\Strings.xml" Line="1" Column="1" />

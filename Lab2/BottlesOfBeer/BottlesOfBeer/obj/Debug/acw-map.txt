@@ -1,0 +1,8 @@
+BottlesOfBeer.MainActivity, BottlesOfBeer;md5b9cb26e11c2f6bc2c37fb5b608cd0ab4.MainActivity
+BottlesOfBeer.MainActivity, BottlesOfBeer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md5b9cb26e11c2f6bc2c37fb5b608cd0ab4.MainActivity
+BottlesOfBeer.MainActivity;md5b9cb26e11c2f6bc2c37fb5b608cd0ab4.MainActivity
+bottlesofbeer.MainActivity;md5b9cb26e11c2f6bc2c37fb5b608cd0ab4.MainActivity
+BottlesOfBeer.WallActivity, BottlesOfBeer;md5b9cb26e11c2f6bc2c37fb5b608cd0ab4.WallActivity
+BottlesOfBeer.WallActivity, BottlesOfBeer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md5b9cb26e11c2f6bc2c37fb5b608cd0ab4.WallActivity
+BottlesOfBeer.WallActivity;md5b9cb26e11c2f6bc2c37fb5b608cd0ab4.WallActivity
+bottlesofbeer.WallActivity;md5b9cb26e11c2f6bc2c37fb5b608cd0ab4.WallActivity
