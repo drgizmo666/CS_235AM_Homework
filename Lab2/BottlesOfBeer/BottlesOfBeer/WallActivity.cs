@@ -16,6 +16,7 @@ namespace BottlesOfBeer
 	[Activity (Label = "Bottles Of Beer")]			
 	public class WallActivity : Activity
 	{
+
 		protected override void OnCreate (Bundle bundle)
 		{
 			base.OnCreate (bundle);
@@ -23,13 +24,17 @@ namespace BottlesOfBeer
 			// SHOW THE 2ND LAYOUT
 			//USE UI CREATED IN MAIN.AXML
 			SetContentView(Resource.Layout.Wall);
-			var bottlesTaken = Intent.GetIntExtra("FirstData", 0);
+			var bottlesTaken = Intent.GetIntExtra("NumberOfBeers", 0);
+			var beersOnWall = Intent.GetIntExtra ("BeersOnWall", 99);
 			var showSecond = FindViewById<Button> (Resource.Id.showMain);
-			var wallLabel = FindViewById<TextView> (Resource.Id.Screen2Label);
 
-			wallLabel.Text = bottlesTaken.ToString ();
+			beersOnWall -= bottlesTaken;
+
 			showSecond.Click += (sender, e) => {
-				StartActivity (typeof(MainActivity));
+				var toMain = new Intent(this, typeof(MainActivity));
+				toMain.PutExtra("BeersLeft", (beersOnWall.ToString() + " Bottles of Beer on the Wall ^^"));
+				toMain.PutExtra("BeersOnWall", beersOnWall);
+				StartActivity (toMain);
 			};
 		}
 	}

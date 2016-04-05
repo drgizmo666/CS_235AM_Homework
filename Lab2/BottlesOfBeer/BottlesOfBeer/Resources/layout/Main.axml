@@ -12,6 +12,15 @@
         android:minWidth="300dp"
         android:minHeight="300dp"
         android:layout_centerInParent="true">
+        <TextView
+            android:id="@+id/beerLabel"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="99 Bottles of Beer on the wall"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:gravity="center_horizontal"
+            android:layout_marginBottom="20dp" />
         <ImageView
             android:src="@android:drawable/ic_menu_gallery"
             android:layout_width="match_parent"

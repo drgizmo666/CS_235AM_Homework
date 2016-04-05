@@ -15,12 +15,12 @@ public final class R {
         public static final int beer=0x7f020001;
     }
     public static final class id {
-        public static final int Screen2Label=0x7f060004;
+        public static final int beerLabel=0x7f060001;
         public static final int content=0x7f060000;
-        public static final int poster=0x7f060001;
+        public static final int poster=0x7f060002;
         public static final int showMain=0x7f060005;
-        public static final int takeOne=0x7f060002;
-        public static final int takeTwo=0x7f060003;
+        public static final int takeOne=0x7f060003;
+        public static final int takeTwo=0x7f060004;
     }
     public static final class layout {
         public static final int main=0x7f040000;

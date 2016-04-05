@@ -1,9 +1,9 @@
 ﻿<Properties StartupItem="BottlesOfBeer\BottlesOfBeer.csproj">
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Android.Nexus 7 (Marshmallow)" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Android.Nexus 10 (KitKat)" />
   <MonoDevelop.Ide.Workbench>
     <Files>
-      <File FileName="BottlesOfBeer\WallActivity.cs" Line="30" Column="46" />
-      <File FileName="BottlesOfBeer\MainActivity.cs" Line="21" Column="54" />
+      <File FileName="BottlesOfBeer\WallActivity.cs" Line="32" Column="4" />
+      <File FileName="BottlesOfBeer\MainActivity.cs" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
