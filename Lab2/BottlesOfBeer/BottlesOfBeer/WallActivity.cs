@@ -13,7 +13,7 @@ using Android.Widget;
 
 namespace BottlesOfBeer
 {
-	[Activity (Label = "Bottles Of Beer")]			
+	[Activity (Label = "Bottles Of Beer", Icon = "@mipmap/icon")]//, LaunchMode = Android.Content.PM.LaunchMode.SingleInstance)]			
 	public class WallActivity : Activity
 	{
 
