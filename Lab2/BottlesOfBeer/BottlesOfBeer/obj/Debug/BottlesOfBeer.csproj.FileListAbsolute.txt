@@ -13,9 +13,9 @@ C:\Users\james\Documents\GitHub\CS_235AM_Homework\Lab2\BottlesOfBeer\BottlesOfBe
 C:\Users\james\Documents\GitHub\CS_235AM_Homework\Lab2\BottlesOfBeer\BottlesOfBeer\obj\Debug\res\mipmap-xxhdpi\icon.png
 C:\Users\james\Documents\GitHub\CS_235AM_Homework\Lab2\BottlesOfBeer\BottlesOfBeer\obj\Debug\res\mipmap-xxxhdpi\icon.png
 C:\Users\james\Documents\GitHub\CS_235AM_Homework\Lab2\BottlesOfBeer\BottlesOfBeer\obj\Debug\res\layout\wall.xml
-C:\Users\james\Documents\GitHub\CS_235AM_Homework\Lab2\BottlesOfBeer\BottlesOfBeer\obj\Debug\res\drawable\activity_background.jpg
 C:\Users\james\Documents\GitHub\CS_235AM_Homework\Lab2\BottlesOfBeer\BottlesOfBeer\obj\Debug\res\drawable\beer.png
 C:\Users\james\Documents\GitHub\CS_235AM_Homework\Lab2\BottlesOfBeer\BottlesOfBeer\obj\Debug\R.cs.flag
 C:\Users\james\Documents\GitHub\CS_235AM_Homework\Lab2\BottlesOfBeer\BottlesOfBeer\obj\Debug\uploadflags.txt
+C:\Users\james\Documents\GitHub\CS_235AM_Homework\Lab2\BottlesOfBeer\BottlesOfBeer\obj\Debug\res\drawable\dp.gif
 C:\Users\james\Documents\GitHub\CS_235AM_Homework\Lab2\BottlesOfBeer\BottlesOfBeer\obj\Debug\BottlesOfBeer.dll.mdb
 C:\Users\james\Documents\GitHub\CS_235AM_Homework\Lab2\BottlesOfBeer\BottlesOfBeer\bin\Debug\BottlesOfBeer.dll.mdb

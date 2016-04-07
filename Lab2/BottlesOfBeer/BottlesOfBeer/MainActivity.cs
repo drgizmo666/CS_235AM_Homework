@@ -5,7 +5,7 @@ using Android.Content;
 
 namespace BottlesOfBeer
 {
-	[Activity (Label = "Bottles Of Beer", MainLauncher = true, Icon = "@mipmap/icon")]//, LaunchMode = Android.Content.PM.LaunchMode.SingleInstance )]
+	[Activity (Label = "Bottles Of Beer", MainLauncher = true, Icon = "@mipmap/icon")]
 	public class MainActivity : Activity
 	{		
 		protected override void OnCreate (Bundle bundle)
@@ -16,7 +16,6 @@ namespace BottlesOfBeer
 			SetContentView(Resource.Layout.Main);
 			var takeOne = FindViewById<Button> (Resource.Id.takeOne);
 			var takeTwo = FindViewById<Button> (Resource.Id.takeTwo);
-			var beerLabel = FindViewById<TextView> (Resource.Id.beerLabel);
 			var imgView = FindViewById<ImageView>(Resource.Id.poster);
 
 			//Set the Image Resource
@@ -27,7 +26,6 @@ namespace BottlesOfBeer
 				//StartActivity (typeof(WallActivity));
 				var tooTheWall = new Intent(this, typeof(WallActivity));
 				tooTheWall.PutExtra("NumberOfBeers", 1);
-				tooTheWall.PutExtra("BeersOnWall", (Intent.GetIntExtra("BeersOnWall", 99)));
 				StartActivity (tooTheWall);
 			};
 
@@ -36,10 +34,15 @@ namespace BottlesOfBeer
 				//StartActivity (typeof(WallActivity));
 				var tooTheWall = new Intent(this, typeof(WallActivity));
 				tooTheWall.PutExtra("NumberOfBeers", 2);
-				tooTheWall.PutExtra("BeersOnWall", (Intent.GetIntExtra("BeersOnWall", 99)));
 				StartActivity (tooTheWall);
 			};
+		}
 
+		protected override void OnResume ()
+		{
+			base.OnResume ();
+
+			var beerLabel = FindViewById<TextView> (Resource.Id.beerLabel);
 			//if the BeersLeft string is not null than use what ever is stored in it if it is null use the default
 			//99 bottles of beer on the wall
 			if (Intent.GetStringExtra ("BeersLeft") != null) {

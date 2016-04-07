@@ -11,7 +11,7 @@
         <category android:name="android.intent.category.LAUNCHER" />
       </intent-filter>
     </activity>
-    <activity android:icon="@mipmap/icon" android:label="Bottles Of Beer" android:name="md5b9cb26e11c2f6bc2c37fb5b608cd0ab4.WallActivity" />
+    <activity android:icon="@mipmap/icon" android:label="Bottles Of Beer" android:launchMode="singleInstance" android:name="md5b9cb26e11c2f6bc2c37fb5b608cd0ab4.WallActivity" />
     <provider android:name="mono.MonoRuntimeProvider" android:exported="false" android:initOrder="2147483647" android:authorities="gepw.bottlesofbeer.mono.MonoRuntimeProvider.__mono_init__" />
     <!--suppress ExportedReceiver-->
     <receiver android:name="mono.android.Seppuku">

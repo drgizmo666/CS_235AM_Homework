@@ -63,8 +63,8 @@
     <AndroidResource Include="Resources\mipmap-xxhdpi\Icon.png" />
     <AndroidResource Include="Resources\mipmap-xxxhdpi\Icon.png" />
     <AndroidResource Include="Resources\layout\Wall.axml" />
-    <AndroidResource Include="Resources\drawable\Activity_Background.jpg" />
     <AndroidResource Include="Resources\drawable\beer.png" />
+    <AndroidResource Include="Resources\drawable\dp.gif" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Resources\drawable\" />
