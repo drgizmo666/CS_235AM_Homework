@@ -5,7 +5,7 @@ using Android.Content;
 
 namespace BottlesOfBeer
 {
-	[Activity (Label = "Bottles Of Beer", MainLauncher = true, Icon = "@mipmap/icon")]
+	[Activity (Label = "Bottles Of Beer", MainLauncher = true, Icon = "@mipmap/icon", LaunchMode = Android.Content.PM.LaunchMode.SingleInstance)]
 	public class MainActivity : Activity
 	{		
 		protected override void OnCreate (Bundle bundle)
@@ -50,6 +50,13 @@ namespace BottlesOfBeer
 			} else {
 				beerLabel.Text = "99 Bottles of Beer on the Wall";
 			}
+		}
+
+		protected override void OnNewIntent (Intent intent)
+		{
+			base.OnNewIntent (intent);
+
+			Intent = intent;
 		}
 	}
 }

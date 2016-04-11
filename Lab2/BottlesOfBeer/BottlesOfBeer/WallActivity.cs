@@ -32,7 +32,7 @@ namespace BottlesOfBeer
 			showMain.Click += (sender, e) => {
 				var toMain = new Intent(this, typeof(MainActivity));
 				//send the updated text to the main page
-				toMain.PutExtra("BeersLeft", (beersOnWall.ToString() + " Bottles of Beer on the Wall ^^"));
+				toMain.PutExtra("BeersLeft", (beersOnWall.ToString() + " Bottles of Beer on the Wall"));
 				StartActivity (toMain);
 			};
 		}
@@ -45,7 +45,7 @@ namespace BottlesOfBeer
 			var beersOnWallLabel = FindViewById<TextView> (Resource.Id.beerOnWallLabel);
 			var takeItDown = FindViewById<TextView> (Resource.Id.takeItDownLabel);
 			//set the text view so the show the right data and subtract the beers taken from the wall
-			beersOnWallLabel.Text = beersOnWall.ToString () + " Bottles of Beer on the Wall";
+			beersOnWallLabel.Text = beersOnWall.ToString () + " Bottles of Beer";
 			takeItDown.Text = "Take " + bottlesTaken.ToString () + " Down";
 			beersOnWall -= bottlesTaken;
 		}

@@ -5,7 +5,7 @@
   <uses-permission android:name="android.permission.INTERNET" />
   <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
   <application android:allowBackup="true" android:icon="@mipmap/icon" android:label="@string/app_name" android:name="mono.android.app.Application" android:debuggable="true">
-    <activity android:icon="@mipmap/icon" android:label="Bottles Of Beer" android:name="md5b9cb26e11c2f6bc2c37fb5b608cd0ab4.MainActivity">
+    <activity android:icon="@mipmap/icon" android:label="Bottles Of Beer" android:launchMode="singleInstance" android:name="md5b9cb26e11c2f6bc2c37fb5b608cd0ab4.MainActivity">
       <intent-filter>
         <action android:name="android.intent.action.MAIN" />
         <category android:name="android.intent.category.LAUNCHER" />
