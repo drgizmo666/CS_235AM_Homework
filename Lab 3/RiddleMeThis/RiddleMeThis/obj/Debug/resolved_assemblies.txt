@@ -1,0 +1,8 @@
+C:\Users\james\Documents\GitHub\CS_235AM_Homework\Lab 3\RiddleMeThis\RiddleMeThis\obj\Debug\assemblies\RiddleMeThis.dll
+C:\Users\james\Documents\GitHub\CS_235AM_Homework\Lab 3\RiddleMeThis\RiddleMeThis\obj\Debug\assemblies\Mono.Android.dll
+C:\Users\james\Documents\GitHub\CS_235AM_Homework\Lab 3\RiddleMeThis\RiddleMeThis\obj\Debug\assemblies\mscorlib.dll
+C:\Users\james\Documents\GitHub\CS_235AM_Homework\Lab 3\RiddleMeThis\RiddleMeThis\obj\Debug\assemblies\System.Core.dll
+C:\Users\james\Documents\GitHub\CS_235AM_Homework\Lab 3\RiddleMeThis\RiddleMeThis\obj\Debug\assemblies\System.dll
+C:\Users\james\Documents\GitHub\CS_235AM_Homework\Lab 3\RiddleMeThis\RiddleMeThis\obj\Debug\assemblies\System.Xml.dll
+C:\Users\james\Documents\GitHub\CS_235AM_Homework\Lab 3\RiddleMeThis\RiddleMeThis\obj\Debug\assemblies\System.Runtime.Serialization.dll
+C:\Users\james\Documents\GitHub\CS_235AM_Homework\Lab 3\RiddleMeThis\RiddleMeThis\obj\Debug\assemblies\System.ServiceModel.Internals.dll

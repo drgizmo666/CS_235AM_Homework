@@ -44,8 +44,11 @@ namespace RiddleMeThis
 		public partial class Id
 		{
 			
+			// aapt resource value: 0x7f050001
+			public const int answerButton = 2131034113;
+			
 			// aapt resource value: 0x7f050000
-			public const int myButton = 2131034112;
+			public const int riddleTextView = 2131034112;
 			
 			static Id()
 			{
@@ -61,7 +64,10 @@ namespace RiddleMeThis
 		{
 			
 			// aapt resource value: 0x7f030000
-			public const int Main = 2130903040;
+			public const int Answer = 2130903040;
+			
+			// aapt resource value: 0x7f030001
+			public const int Main = 2130903041;
 			
 			static Layout()
 			{

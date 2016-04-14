@@ -1,0 +1,4 @@
+RiddleMeThis.MainActivity, RiddleMeThis;md5be049794d3b0252c5aac00cd5ecef02e.MainActivity
+RiddleMeThis.MainActivity, RiddleMeThis, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md5be049794d3b0252c5aac00cd5ecef02e.MainActivity
+RiddleMeThis.MainActivity;md5be049794d3b0252c5aac00cd5ecef02e.MainActivity
+riddlemethis.MainActivity;md5be049794d3b0252c5aac00cd5ecef02e.MainActivity

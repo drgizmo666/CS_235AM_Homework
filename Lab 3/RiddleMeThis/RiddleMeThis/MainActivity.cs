@@ -4,11 +4,9 @@ using Android.OS;
 
 namespace RiddleMeThis
 {
-	[Activity (Label = "RiddleMeThis", MainLauncher = true, Icon = "@mipmap/icon")]
+	[Activity (Label = "Riddle Me This", MainLauncher = true, Icon = "@mipmap/icon")]
 	public class MainActivity : Activity
 	{
-		int count = 1;
-
 		protected override void OnCreate (Bundle savedInstanceState)
 		{
 			base.OnCreate (savedInstanceState);
@@ -16,12 +14,16 @@ namespace RiddleMeThis
 			// Set our view from the "main" layout resource
 			SetContentView (Resource.Layout.Main);
 
+			Riddles riddles = new Riddles ();
+			var riddleTextView = FindViewById<TextView> (Resource.Id.riddleTextView);
+
+			riddleTextView.Text = riddles.ShowRiddles (1);
 			// Get our button from the layout resource,
 			// and attach an event to it
 			Button button = FindViewById<Button> (Resource.Id.myButton);
 			
 			button.Click += delegate {
-				button.Text = string.Format ("{0} clicks!", count++);
+			//	button.Text = string.Format ("{0} clicks!", count++);
 			};
 		}
 	}
