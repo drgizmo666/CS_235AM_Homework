@@ -80,10 +80,11 @@ namespace RiddleMeThis
 
 			resetButton.Click += delegate {
 				riddleMaster.riddleNum = 0;
-				riddleTextView.Text = "Click show riddle to try a riddle";
+				outputTextView.Text = "riddle me this";
+				riddleTextView.Text = riddleMaster.GetRiddle(riddleMaster.riddleNum);
 				answerEditText.Text = "";
-				riddleButton.Enabled = true;
-				answerButton.Enabled = false;
+				riddleButton.Enabled = false;
+				answerButton.Enabled = true;
 				resetButton.Enabled = false;
 
 			};
@@ -93,7 +94,21 @@ namespace RiddleMeThis
 		{
 			base.OnResume ();
 
+			TextView riddleTextView = FindViewById<TextView> (Resource.Id.riddleTextView);
+			TextView outputTextView = FindViewById<TextView> (Resource.Id.outputTextView);
+			TextView scoreTextView = FindViewById<TextView> (Resource.Id.scoreTextView);
+			Button riddleButton = FindViewById<Button> (Resource.Id.riddleButton);
+			Button answerButton = FindViewById<Button> (Resource.Id.answerButton);
+			Button resetButton = FindViewById<Button> (Resource.Id.resetButton);
 
+			scoreTextView.Text = riddleMaster.showScore();
+
+			if (riddleButton.Enabled == true)
+				riddleTextView.Text = riddleMaster.GetAnswer (riddleMaster.riddleNum);
+			else if (answerButton.Enabled == true)
+				riddleTextView.Text = riddleMaster.GetRiddle (riddleMaster.riddleNum);
+			else if(resetButton.Enabled == true)
+				riddleTextView.Text = riddleMaster.GetRiddle (riddleMaster.riddleNum);
 		}
 
 		protected override void OnSaveInstanceState (Bundle outState)
