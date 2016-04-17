@@ -1,0 +1,90 @@
+﻿using System;
+using System.Collections.Generic;
+
+namespace RiddleMeThis
+{
+
+	public class Riddle
+	{
+		public string riddle { get; set; }
+		public string answer { get; set; }
+	}
+
+	public class Score
+	{
+		public int correct { get; set; }
+		public int wrong { get; set; }
+	}
+
+	public class RiddleMaster
+	{
+		private List<Riddle> riddles = new List<Riddle>();
+		public List<Riddle> Riddles { get { return riddles; } }
+
+		private List<Score> saveScore = new List<Score>();
+		public List<Score> SaveScore { get { return saveScore; } }
+
+
+		//default constructor
+		public RiddleMaster ()
+		{
+		}
+
+		//Temporary will be replaced latter with a database
+		public RiddleMaster(string mrNobody)
+		{
+
+			
+			riddles.Add (new Riddle (){ 
+				riddle = "When you have me, you feel like sharing me but if you do share me, you don't have me \n what am I?", 
+				answer = "secret" });
+			riddles.Add (new Riddle (){ 
+				riddle = "I am the beginning of eternity, the end of time and space, the beginning of the end and the end of every space. \n What am I", 
+				answer = "e"});
+			riddles.Add (new Riddle () {
+				riddle = "I have a bed, but I do not sleep, I have a mouth but I don't eat. You hear me whisper, but I never talk. You can see me run, yet I never walk. \n What am I?",
+				answer = "river"});
+			riddles.Add (new Riddle(){
+				riddle = "I have keys but no locks. I have a space but no room. You can enter but can't go outside \n what am I?",
+				answer = "keyboard"});
+			riddles.Add (new Riddle () {
+				riddle = "What can bring back the dead; make us cry, make us laugh, make us young; born in an instant yet lasts a life time?",
+				answer = "memories"});
+			
+		}
+
+		public string GetRiddle (int riddleNum)
+		{
+			return riddles [riddleNum].riddle;
+		}
+
+		public string GetAnswer (int answerNum)
+		{
+			return riddles [answerNum].answer;
+		}
+
+		public void updateScore (int correctNum, int wrongNum)
+		{
+			if (saveScore.Count == 0) {
+				saveScore.Add (new Score () {
+					correct = correctNum,
+					wrong = wrongNum
+				});
+			} else {
+				saveScore [0].correct = correctNum;
+				saveScore [0].wrong = wrongNum;
+			}
+		}
+
+		public int GetCorrect()
+		{
+			return saveScore [0].correct;
+		}
+
+		public int GetWrong()
+		{
+			return saveScore [0].wrong;
+		}
+	}
+}
+

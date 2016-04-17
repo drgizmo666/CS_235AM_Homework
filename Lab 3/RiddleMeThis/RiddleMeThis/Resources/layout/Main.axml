@@ -2,13 +2,50 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:background="@drawable/riddlebg"
+    android:textAlignment="center"
+    android:gravity="center">
     <TextView
-        android:text="Large Text"
+        android:text="Wrong"
         android:textAppearance="?android:attr/textAppearanceLarge"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/riddleTextView" />
+        android:id="@+id/wrongTextView"
+        android:gravity="right" />
+    <TextView
+        android:text="Correct"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/CorrectTextView" />
+    <TextView
+        android:text="Riddle Me This"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:textColor="@android:color/white"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/riddleMeTextView"
+        android:gravity="center" />
+    <TextView
+        android:text="Large Text"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:textColor="@android:color/white"
+        android:layout_margin="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/riddleTextView"
+        android:gravity="center" />
+    <EditText
+        android:inputType="textMultiLine"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/answerEditText"
+        android:textColor="@android:color/white"
+        android:gravity="center"
+        android:hint="Enter Your Answer" />
     <Button
         android:id="@+id/answerButton"
         android:layout_width="match_parent"

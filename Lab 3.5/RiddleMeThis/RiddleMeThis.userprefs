@@ -1,10 +1,9 @@
 ﻿<Properties StartupItem="RiddleMeThis\RiddleMeThis.csproj">
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Android.Nexus 10 (KitKat)" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Android.LGH811f8322b65" />
   <MonoDevelop.Ide.Workbench ActiveDocument="RiddleMeThis\MainActivity.cs">
     <Files>
-      <File FileName="RiddleMeThis\RiddleMaster.cs" Line="91" Column="1" />
-      <File FileName="RiddleMeThis\MainActivity.cs" Line="53" Column="5" />
-      <File FileName="RiddleMeThis\AnswerActivity.cs" Line="69" Column="4" />
+      <File FileName="RiddleMeThis\RiddleMaster.cs" Line="1" Column="1" />
+      <File FileName="RiddleMeThis\MainActivity.cs" Line="60" Column="6" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
