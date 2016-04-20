@@ -1,0 +1,15 @@
+﻿<Properties StartupItem="TideChart\TideChart.csproj" RefactoringSettings.EnableRefactorings="True">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Android.LGH811f8322b65" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="TideChart\XmlFileReader.cs">
+    <Files>
+      <File FileName="TideChart\MainActivity.cs" Line="23" Column="68" />
+      <File FileName="TideChart\XmlFileReader.cs" Line="36" Column="49" />
+      <File FileName="TideChart\TideAdapter.cs" Line="22" Column="13" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.TideChart AndroidDesignerPreferredDevice="Nexus 4" />
+</Properties>
