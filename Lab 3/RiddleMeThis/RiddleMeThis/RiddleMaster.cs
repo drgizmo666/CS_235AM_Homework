@@ -9,21 +9,11 @@ namespace RiddleMeThis
 		public string riddle { get; set; }
 		public string answer { get; set; }
 	}
-
-	public class Score
-	{
-		public int correct { get; set; }
-		public int wrong { get; set; }
-	}
-
+		
 	public class RiddleMaster
 	{
 		private List<Riddle> riddles = new List<Riddle>();
 		public List<Riddle> Riddles { get { return riddles; } }
-
-		private List<Score> saveScore = new List<Score>();
-		public List<Score> SaveScore { get { return saveScore; } }
-
 
 		//default constructor
 		public RiddleMaster ()
@@ -33,8 +23,6 @@ namespace RiddleMeThis
 		//Temporary will be replaced latter with a database
 		public RiddleMaster(string mrNobody)
 		{
-
-			
 			riddles.Add (new Riddle (){ 
 				riddle = "When you have me, you feel like sharing me but if you do share me, you don't have me \n what am I?", 
 				answer = "secret" });
@@ -61,29 +49,6 @@ namespace RiddleMeThis
 		public string GetAnswer (int answerNum)
 		{
 			return riddles [answerNum].answer;
-		}
-
-		public void updateScore (int correctNum, int wrongNum)
-		{
-			if (saveScore.Count == 0) {
-				saveScore.Add (new Score () {
-					correct = correctNum,
-					wrong = wrongNum
-				});
-			} else {
-				saveScore [0].correct = correctNum;
-				saveScore [0].wrong = wrongNum;
-			}
-		}
-
-		public int GetCorrect()
-		{
-			return saveScore [0].correct;
-		}
-
-		public int GetWrong()
-		{
-			return saveScore [0].wrong;
 		}
 	}
 }
