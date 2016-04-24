@@ -6,7 +6,7 @@ using Android.Views;
 
 namespace TideChart
 {
-	[Activity (Label = "Dick Point Tide Chart", MainLauncher = true, Icon = "@mipmap/icon")]
+	[Activity (Label = "Tide Chart for Dick Point Station", MainLauncher = true, Icon = "@mipmap/icon")]
 	public class MainActivity : ListActivity
 	{
 

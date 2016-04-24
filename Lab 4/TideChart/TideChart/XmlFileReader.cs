@@ -39,7 +39,7 @@ namespace TideChart
 							break;
 						case "date":
 							// Add the date
-							if (reader.Read () && tideItem != null)
+							if (reader.Read () && tideItem != null){
 								tideItem.Add ("date", reader.Value.Trim ());
 							}
 							break;
@@ -70,8 +70,6 @@ namespace TideChart
 
 				}
 			}
-
-
 		}
 	}
 

@@ -5,7 +5,7 @@
   <uses-permission android:name="android.permission.INTERNET" />
   <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
   <application android:allowBackup="true" android:icon="@mipmap/icon" android:label="@string/app_name" android:name="mono.android.app.Application" android:debuggable="true">
-    <activity android:icon="@mipmap/icon" android:label="Dick Point Tide Chart" android:name="md5849138f9ddeeb00762373596bebb64b4.MainActivity">
+    <activity android:icon="@mipmap/icon" android:label="Tide Chart for Dick Point Station in Oregon" android:name="md5849138f9ddeeb00762373596bebb64b4.MainActivity">
       <intent-filter>
         <action android:name="android.intent.action.MAIN" />
         <category android:name="android.intent.category.LAUNCHER" />

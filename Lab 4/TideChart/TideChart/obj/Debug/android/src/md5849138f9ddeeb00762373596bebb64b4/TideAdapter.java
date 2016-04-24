@@ -10,6 +10,7 @@ public class TideAdapter
 	static final String __md_methods;
 	static {
 		__md_methods = 
+			"n_getView:(ILandroid/view/View;Landroid/view/ViewGroup;)Landroid/view/View;:GetGetView_ILandroid_view_View_Landroid_view_ViewGroup_Handler\n" +
 			"n_getPositionForSection:(I)I:GetGetPositionForSection_IHandler:Android.Widget.ISectionIndexerInvoker, Mono.Android, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null\n" +
 			"n_getSectionForPosition:(I)I:GetGetSectionForPosition_IHandler:Android.Widget.ISectionIndexerInvoker, Mono.Android, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null\n" +
 			"n_getSections:()[Ljava/lang/Object;:GetGetSectionsHandler:Android.Widget.ISectionIndexerInvoker, Mono.Android, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null\n" +
@@ -24,6 +25,14 @@ public class TideAdapter
 		if (getClass () == TideAdapter.class)
 			mono.android.TypeManager.Activate ("TideChart.TideAdapter, TideChart, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null", "Android.Content.Context, Mono.Android, Version=0.0.0.0, Culture=neutral, PublicKeyToken=84e04ff9cfb79065:System.Collections.Generic.IList`1<System.Collections.Generic.IDictionary`2<System.String,System.Object>>, mscorlib, Version=2.0.5.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e:System.Int32, mscorlib, Version=2.0.5.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e:System.String[], mscorlib, Version=2.0.5.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e:System.Int32[], mscorlib, Version=2.0.5.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e", this, new java.lang.Object[] { p0, p1, p2, p3, p4 });
 	}
+
+
+	public android.view.View getView (int p0, android.view.View p1, android.view.ViewGroup p2)
+	{
+		return n_getView (p0, p1, p2);
+	}
+
+	private native android.view.View n_getView (int p0, android.view.View p1, android.view.ViewGroup p2);
 
 
 	public int getPositionForSection (int p0)

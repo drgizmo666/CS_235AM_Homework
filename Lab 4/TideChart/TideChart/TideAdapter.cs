@@ -2,6 +2,8 @@ using System;
 using Android.Widget;
 using System.Collections.Generic;
 using Android.Content;
+using Android.Views;
+using Android.App;
 
 namespace TideChart
 {
@@ -10,18 +12,42 @@ namespace TideChart
 		IList<IDictionary<string, object>> dataList;
 		String[] sections;
 		Java.Lang.Object[] sectionsObjects;
-		Dictionary<string, int> alphaIndex; 
+		Dictionary<string, int> alphaIndex;
+		Activity c;
 
 		public TideAdapter (Context context, 
 			IList<IDictionary<string, object>> data, 
 			Int32 resource, 
-			String[] from, 
+			String[] from,
 			Int32[] to) : base(context, data, resource, from, to)
 		{
 			dataList = data;
+			c = (Activity)context;
 			BuildSectionIndex ();
 		}
 
+		public override View GetView (int position, View convertView, ViewGroup parent)
+		{
+			View view = convertView;
+			if (view == null)
+				view = c.LayoutInflater.Inflate (
+					Android.Resource.Layout.TwoLineListItem,
+					null);
+			//display day and date
+			view.FindViewById<TextView> (Android.Resource.Id.Text1).Text 
+			= dataList [position] ["day"] + " " + dataList [position] ["date"];
+
+			//display time and tide
+			if ((string)dataList [position] ["highlow"] == "H") {
+				view.FindViewById<TextView> (Android.Resource.Id.Text2).Text 
+			= dataList [position] ["time"] + " - High Tide";
+			} else {
+				view.FindViewById<TextView> (Android.Resource.Id.Text2).Text 
+				= dataList [position] ["time"] + " - Low Tide";
+			}
+
+			return view;
+		}
 		public int GetPositionForSection(int section)
 		{
 			return alphaIndex [sections [section]];
