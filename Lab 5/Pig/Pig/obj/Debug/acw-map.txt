@@ -1,0 +1,4 @@
+Pig.MainActivity, Pig;md5c870ba7c4aed6904b78090e421d0358f.MainActivity
+Pig.MainActivity, Pig, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md5c870ba7c4aed6904b78090e421d0358f.MainActivity
+Pig.MainActivity;md5c870ba7c4aed6904b78090e421d0358f.MainActivity
+pig.MainActivity;md5c870ba7c4aed6904b78090e421d0358f.MainActivity
