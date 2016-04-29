@@ -1,6 +1,7 @@
 ﻿using Android.App;
 using Android.Widget;
 using Android.OS;
+using System;
 
 namespace Pig
 {
@@ -8,6 +9,7 @@ namespace Pig
 	public class MainActivity : Activity
 	{
 		public PigLogic oink = new PigLogic ();
+		public string whosTurn = "p1";
 
 		protected override void OnCreate (Bundle savedInstanceState)
 		{
@@ -19,47 +21,74 @@ namespace Pig
 
 			// Get our button from the layout resource,
 			// and attach an event to it
-			Button button = FindViewById<Button> (Resource.Id.rollDiceButton);
-			
-			button.Click += delegate {
+			Button rollButton = FindViewById<Button> (Resource.Id.rollDiceButton);
+			Button scoreButton = FindViewById<Button> (Resource.Id.endTurnButton);
+			var tempScoreText = FindViewById<TextView> (Resource.Id.tempScoreTextView);
+			var player1Score = FindViewById<TextView> (Resource.Id.player1ScoreTextView);
+			var player2Score = FindViewById<TextView> (Resource.Id.player2ScoreTextView);
+			var outputTextView = FindViewById<TextView> (Resource.Id.outputTextView);
+
+			rollButton.Click += delegate {
 				setImageView();
+			};
+
+			scoreButton.Click += delegate {
+				if(whosTurn == "p1")
+				{
+					player1Score.Text = oink.saveScore(Convert.ToInt32(tempScoreText.Text), whosTurn).ToString();
+					tempScoreText.Text = oink.showTempScore();
+					outputTextView.Text = "Player 2 Turn";
+					whosTurn = "p2";
+				}
+				else{
+					player2Score.Text = oink.saveScore(Convert.ToInt32(tempScoreText.Text), whosTurn).ToString();
+					tempScoreText.Text = oink.showTempScore();
+					outputTextView.Text = "Player 1 Turn";
+					whosTurn = "p1";
+				}
 			};
 		}
 
 		public void setImageView()
 		{
-			var outputText = FindViewById<TextView> (Resource.Id.outputTextView);
+			var tempScoreText = FindViewById<TextView> (Resource.Id.tempScoreTextView);
 			var diceImageView = FindViewById<ImageView> (Resource.Id.DiceImageView);
 			var numRolled = oink.getNumber ();
 
 			switch (numRolled) {
-				case(1):
+			case(1):
 					diceImageView.SetImageResource (Resource.Drawable.one);
-					outputText.Text = "You rolled a one";
+					oink.emptyTempScore ();
+					tempScoreText.Text = oink.showTempScore();
 					break;
-				case(2):
+			case(2):
 					diceImageView.SetImageResource (Resource.Drawable.two);
-					outputText.Text = "You Rolled a Two";
+					oink.trackTempScore (numRolled);
+					tempScoreText.Text = oink.showTempScore();
 					break;
 				case(3):
 					diceImageView.SetImageResource (Resource.Drawable.three);
-					outputText.Text = "You Rolled a Three";
+					oink.trackTempScore (numRolled);
+					tempScoreText.Text = oink.showTempScore();
 					break;
 				case(4):
 					diceImageView.SetImageResource (Resource.Drawable.four);
-					outputText.Text = "You Rolled a Four";
+					oink.trackTempScore (numRolled);
+					tempScoreText.Text =  oink.showTempScore();
 					break;
 				case(5):
 					diceImageView.SetImageResource (Resource.Drawable.five);
-					outputText.Text = "You Rolled a Five";
+					oink.trackTempScore (numRolled);
+					tempScoreText.Text =  oink.showTempScore();
 					break;
 				case(6):
 					diceImageView.SetImageResource (Resource.Drawable.six);
-					outputText.Text = "You Rolled a Six";
+					oink.trackTempScore (numRolled);
+					tempScoreText.Text =  oink.showTempScore();
 					break;
 				default:
 					diceImageView.SetImageResource (Resource.Drawable.one);
-					outputText.Text = "You Rolled a " + numRolled.ToString () + " You Hacker";
+					tempScoreText.Text = "You Rolled a " + numRolled.ToString () + " You Hacker";
 					break;
 			}
 		}

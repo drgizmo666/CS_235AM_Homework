@@ -1,9 +1,9 @@
 ﻿<Properties StartupItem="Pig\Pig.csproj">
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Android.Nexus 7 (Marshmallow)" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Android.LGH811f8322b65" />
   <MonoDevelop.Ide.Workbench ActiveDocument="Pig\MainActivity.cs">
     <Files>
-      <File FileName="Pig\MainActivity.cs" Line="62" Column="21" />
-      <File FileName="Pig\PigLogic.cs" Line="11" Column="4" />
+      <File FileName="Pig\MainActivity.cs" Line="41" Column="22" />
+      <File FileName="Pig\PigLogic.cs" Line="50" Column="25" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

@@ -75,23 +75,65 @@ namespace Pig
 		public partial class Id
 		{
 			
-			// aapt resource value: 0x7f060004
-			public const int DiceImageView = 2131099652;
+			// aapt resource value: 0x7f06000a
+			public const int DiceImageView = 2131099658;
 			
-			// aapt resource value: 0x7f060000
-			public const int linearLayout1 = 2131099648;
+			// aapt resource value: 0x7f06000f
+			public const int endTurnButton = 2131099663;
+			
+			// aapt resource value: 0x7f06000d
+			public const int linearLayout2 = 2131099661;
+			
+			// aapt resource value: 0x7f060010
+			public const int linearLayout3 = 2131099664;
+			
+			// aapt resource value: 0x7f060006
+			public const int linearLayout4 = 2131099654;
+			
+			// aapt resource value: 0x7f060013
+			public const int linearLayout5 = 2131099667;
 			
 			// aapt resource value: 0x7f060003
-			public const int outputTextView = 2131099651;
+			public const int linearLayout6 = 2131099651;
+			
+			// aapt resource value: 0x7f060012
+			public const int linearLayout7 = 2131099666;
+			
+			// aapt resource value: 0x7f060011
+			public const int newGameButton = 2131099665;
+			
+			// aapt resource value: 0x7f060009
+			public const int outputTextView = 2131099657;
+			
+			// aapt resource value: 0x7f060000
+			public const int pAndCLinearLayout = 2131099648;
+			
+			// aapt resource value: 0x7f060004
+			public const int player1EditText = 2131099652;
+			
+			// aapt resource value: 0x7f060007
+			public const int player1ScoreTextView = 2131099655;
 			
 			// aapt resource value: 0x7f060005
-			public const int rollDiceButton = 2131099653;
+			public const int player2EditText = 2131099653;
+			
+			// aapt resource value: 0x7f060008
+			public const int player2ScoreTextView = 2131099656;
+			
+			// aapt resource value: 0x7f06000e
+			public const int rollDiceButton = 2131099662;
+			
+			// aapt resource value: 0x7f06000c
+			public const int tempScoreTextView = 2131099660;
 			
 			// aapt resource value: 0x7f060001
 			public const int textView1 = 2131099649;
 			
 			// aapt resource value: 0x7f060002
 			public const int textView2 = 2131099650;
+			
+			// aapt resource value: 0x7f06000b
+			public const int textView3 = 2131099659;
 			
 			static Id()
 			{
