@@ -18,8 +18,8 @@ C:\Users\james\Documents\GitHub\CS_235AM_Homework\Lab 5\Pig\Pig\obj\Debug\res\dr
 C:\Users\james\Documents\GitHub\CS_235AM_Homework\Lab 5\Pig\Pig\obj\Debug\res\drawable\six.png
 C:\Users\james\Documents\GitHub\CS_235AM_Homework\Lab 5\Pig\Pig\obj\Debug\res\drawable\three.png
 C:\Users\james\Documents\GitHub\CS_235AM_Homework\Lab 5\Pig\Pig\obj\Debug\res\drawable\two.png
+C:\Users\james\Documents\GitHub\CS_235AM_Homework\Lab 5\Pig\Pig\obj\Debug\res\layout-land\main.xml
 C:\Users\james\Documents\GitHub\CS_235AM_Homework\Lab 5\Pig\Pig\obj\Debug\R.cs.flag
 C:\Users\james\Documents\GitHub\CS_235AM_Homework\Lab 5\Pig\Pig\obj\Debug\uploadflags.txt
-C:\Users\james\Documents\GitHub\CS_235AM_Homework\Lab 5\Pig\Pig\obj\Debug\res\layout-land\main.xml
 C:\Users\james\Documents\GitHub\CS_235AM_Homework\Lab 5\Pig\Pig\obj\Debug\Pig.dll.mdb
 C:\Users\james\Documents\GitHub\CS_235AM_Homework\Lab 5\Pig\Pig\bin\Debug\Pig.dll.mdb
