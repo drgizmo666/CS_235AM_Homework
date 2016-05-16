@@ -1,0 +1,7 @@
+C:\Users\james\Documents\GitHub\CS_235AM_Homework\lab07\TideChart\TideChart-Console\obj\Debug\TideChart-Console.csprojResolveAssemblyReference.cache
+C:\Users\james\Documents\GitHub\CS_235AM_Homework\lab07\TideChart\TideChart-Console\bin\Debug\TideChart-Console.exe
+C:\Users\james\Documents\GitHub\CS_235AM_Homework\lab07\TideChart\TideChart-Console\bin\Debug\TideChart-Console.pdb
+C:\Users\james\Documents\GitHub\CS_235AM_Homework\lab07\TideChart\TideChart-Console\bin\Debug\DAL.dll
+C:\Users\james\Documents\GitHub\CS_235AM_Homework\lab07\TideChart\TideChart-Console\bin\Debug\DAL.pdb
+C:\Users\james\Documents\GitHub\CS_235AM_Homework\lab07\TideChart\TideChart-Console\obj\Debug\TideChart-Console.exe
+C:\Users\james\Documents\GitHub\CS_235AM_Homework\lab07\TideChart\TideChart-Console\obj\Debug\TideChart-Console.pdb

@@ -1,0 +1,8 @@
+C:\Users\james\Documents\GitHub\CS_235AM_Homework\lab07\TideChart\TideChart\obj\Debug\assemblies\TideChart.dll
+C:\Users\james\Documents\GitHub\CS_235AM_Homework\lab07\TideChart\TideChart\obj\Debug\assemblies\Mono.Android.dll
+C:\Users\james\Documents\GitHub\CS_235AM_Homework\lab07\TideChart\TideChart\obj\Debug\assemblies\mscorlib.dll
+C:\Users\james\Documents\GitHub\CS_235AM_Homework\lab07\TideChart\TideChart\obj\Debug\assemblies\System.Core.dll
+C:\Users\james\Documents\GitHub\CS_235AM_Homework\lab07\TideChart\TideChart\obj\Debug\assemblies\System.dll
+C:\Users\james\Documents\GitHub\CS_235AM_Homework\lab07\TideChart\TideChart\obj\Debug\assemblies\System.Xml.dll
+C:\Users\james\Documents\GitHub\CS_235AM_Homework\lab07\TideChart\TideChart\obj\Debug\assemblies\System.Runtime.Serialization.dll
+C:\Users\james\Documents\GitHub\CS_235AM_Homework\lab07\TideChart\TideChart\obj\Debug\assemblies\System.ServiceModel.Internals.dll

@@ -1,0 +1,14 @@
+﻿<Properties StartupItem="TideChart-DBTest\TideChart-DBTest.csproj" RefactoringSettings.EnableRefactorings="True">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="TideChart-DBTest\TestProgram.cs">
+    <Files>
+      <File FileName="TideChart-Console\Program.cs" Line="53" Column="4" />
+      <File FileName="TideChart-DBTest\TestProgram.cs" Line="41" Column="5" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.TideChart AndroidDesignerPreferredDevice="Nexus 4" />
+</Properties>

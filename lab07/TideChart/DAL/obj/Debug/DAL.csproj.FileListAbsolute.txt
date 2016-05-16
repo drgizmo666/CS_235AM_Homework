@@ -1,0 +1,4 @@
+C:\Users\james\Documents\GitHub\CS_235AM_Homework\lab07\TideChart\DAL\bin\Debug\DAL.dll
+C:\Users\james\Documents\GitHub\CS_235AM_Homework\lab07\TideChart\DAL\bin\Debug\DAL.pdb
+C:\Users\james\Documents\GitHub\CS_235AM_Homework\lab07\TideChart\DAL\obj\Debug\DAL.dll
+C:\Users\james\Documents\GitHub\CS_235AM_Homework\lab07\TideChart\DAL\obj\Debug\DAL.pdb
