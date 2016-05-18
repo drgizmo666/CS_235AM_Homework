@@ -1,0 +1,10 @@
+C:\Users\james\Documents\GitHub\CS_235AM_Homework\TeamBuilder\DAL\bin\Debug\DAL.dll
+C:\Users\james\Documents\GitHub\CS_235AM_Homework\TeamBuilder\DAL\bin\Debug\DAL.pdb
+C:\Users\james\Documents\GitHub\CS_235AM_Homework\TeamBuilder\DAL\bin\Debug\DAL.DAL.apk
+C:\Users\james\Documents\GitHub\CS_235AM_Homework\TeamBuilder\DAL\bin\Debug\DAL.DAL-Signed.apk
+C:\Users\james\Documents\GitHub\CS_235AM_Homework\TeamBuilder\DAL\obj\Debug\DAL.dll
+C:\Users\james\Documents\GitHub\CS_235AM_Homework\TeamBuilder\DAL\obj\Debug\DAL.pdb
+C:\Users\james\Documents\GitHub\CS_235AM_Homework\TeamBuilder\DAL\obj\Debug\android\bin\DAL.DAL.apk
+C:\Users\james\Documents\GitHub\CS_235AM_Homework\TeamBuilder\DAL\obj\Debug\res\values\strings.xml
+C:\Users\james\Documents\GitHub\CS_235AM_Homework\TeamBuilder\DAL\obj\Debug\R.cs.flag
+C:\Users\james\Documents\GitHub\CS_235AM_Homework\TeamBuilder\DAL\obj\Debug\uploadflags.txt

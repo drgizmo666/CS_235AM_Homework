@@ -1,0 +1,4 @@
+TeamBuilder.MainActivity, TeamBuilder;md5f5c2a9bcfaa593d09bf871e6ad7cc252.MainActivity
+TeamBuilder.MainActivity, TeamBuilder, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md5f5c2a9bcfaa593d09bf871e6ad7cc252.MainActivity
+TeamBuilder.MainActivity;md5f5c2a9bcfaa593d09bf871e6ad7cc252.MainActivity
+teambuilder.MainActivity;md5f5c2a9bcfaa593d09bf871e6ad7cc252.MainActivity

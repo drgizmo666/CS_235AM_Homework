@@ -1,0 +1,240 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<setList>
+	<setName>Captain America: Civil War</setName>
+	<number_of_figs>14</number_of_figs>
+
+	<figureList>
+		<fig>
+			<number>001</number>
+			<name>Captain America</name>
+			<affiliation>Avengers Initiative</affiliation>
+			<points>125</points>
+			<clicks>7</clicks>
+			<keywords>Avengers, S.H.I.E.L.D, Soldier</keywords>
+			<rarity>Common</rarity>
+			<special_1 type="trait"> +5 I'M WITH CAP: When targeted by a ranged combat attack, Captain America can use Shape Change</special_1>
+			<special_2 type="damage">INSPIRING LEADER: Captain America can use Leadership. When he does and succeeds choose a 
+									friendly character and modify the attack and defense values of that character by +1 until 
+									your next turn. </special_2>
+			<special_3></special_3>
+			<special_4></special_4>
+		</fig>
+		<fig>
+			<number>001e</number>
+			<name>Captain America</name>
+			<affiliation>Avengers Initiative</affiliation>
+			<points>60</points>
+			<clicks>4</clicks>
+			<keywords>Avengers, S.H.I.E.L.D, Soldier</keywords>
+			<rarity>Common</rarity>
+			<special_1 type="trait">+5 I'M WITH CAP: When targeted by a ranged combat attack, Captain America can use Shape Change</special_1>
+			<special_2 type="damage">INSPIRING LEADER: Captain America can use Leadership. When he does and succeeds choose a 
+									friendly character and modify the attack and defense values of that character by +1 until 
+									your next turn. </special_2>
+			<special_3></special_3>
+			<special_4></special_4>
+		</fig>
+		<fig>
+			<number>002</number>
+			<name>Iron Man</name>
+			<affiliation>Avengers Initiative</affiliation>
+			<points>125</points>
+			<clicks>7</clicks>
+			<keywords>Armor, Avengers, S.H.I.E.L.D, Scientist</keywords>
+			<rarity>Common</rarity>
+			<special_1 type="trait">+5 IRON MAN IS RIGHT: Iron Man can use Plasticitly</special_1>
+			<special_2 type="damage">DRIVEN LEADER: Iron Man can use Leadership when he does and succeeds, choose an
+									opposing character and modify the attack and defense values of that character by
+									-1 until your next turn.</special_2>
+			<special_3></special_3>
+			<special_4></special_4>
+		</fig>
+		<fig>
+			<number>002e</number>
+			<name>Iron Man</name>
+			<affiliation>Avengers Initiative</affiliation>
+			<points>60</points>
+			<clicks>4</clicks>
+			<keywords>Armor, Avengers, S.H.I.E.L.D, Scientist</keywords>
+			<rarity>Common</rarity>
+			<special_1 type="trait">+5 IRON MAN IS RIGHT: Iron Man can use Plasticity</special_1>
+			<special_2 type="damage">DRIVEN LEADER: Iron Man can use Leadership when he does and succeeds, choose an
+									opposing character and modify the attack and defense values of that character by
+									-1 until your next turn.</special_2>
+			<special_3></special_3>
+			<special_4></special_4>
+		</fig>
+		<fig>
+			<number>003</number>
+			<name>Black Widow</name>
+			<affiliation>Avengers Initiative</affiliation>
+			<points>60</points>
+			<clicks>5</clicks>
+			<keywords>Assassin, Avengers, S.H.I.E.L.D, Spy</keywords>
+			<rarity>Common</rarity>
+			<special_1 type="improved">I KNOW MY MISSON: Ignores Characters for Movement</special_1>
+			<special_2 type="trait">+5 IRON MAN IS RIGHT: Black Widow can use Plasticity</special_2>
+			<special_3 type="damage">DEADLY INFILTRATOR: Black Widow can use Exploit Weakness and Shape Change.</special_3>
+			<special_4></special_4>
+		</fig>
+		<fig>
+			<number>004</number>
+			<name>War Machine</name>
+			<affiliation>Avengers Initiative</affiliation>
+			<points>105</points>
+			<clicks>6</clicks>
+			<keywords>Armor, Avengers, S.H.I.E.L.D, Soldier</keywords>
+			<rarity>Common</rarity>
+			<special_1 type="trait">+5 IRON MAN IS RIGHT: War Machine can use Plasticity</special_1>
+			<special_2></special_2>
+			<special_3></special_3>
+			<special_4></special_4>
+		</fig>
+		<fig>
+			<number>005</number>
+			<name>Ant-Man</name>
+			<affiliation>No Affiliation</affiliation>
+			<points>55</points>
+			<clicks>4</clicks>
+			<keywords>Avengers, Spy</keywords>
+			<rarity>Common</rarity>
+			<special_1 type="trait">+5 I'M WITH CAP: When targeted by a ranged combat attack, Ant-Man can use Shape Change</special_1>
+			<special_2 type="trait">SNEAKING IN: Give Ant-Man a free action and choose a standard adjacent friendly character.
+									That character can use Tiny Damage Symbol this turn.</special_2>
+			<special_3 type="attack">PYM PARTICLE DISCS: When Ant-Man hits an opposing character, the hit character gains
+									your choice of Tiny Damage Symbol or Giant Damage Symbol this turn</special_3>
+			<special_4></special_4>
+		</fig>
+		<fig>
+			<number>006</number>
+			<name>Hawkeye</name>
+			<affiliation>Avengers Initiative</affiliation>
+			<points>85</points>
+			<clicks>6</clicks>
+			<keywords>Avengers, S.H.I.E.L.D, Soldier</keywords>
+			<rarity>Common</rarity>
+			<special_1 type="trait">+5 I'M WITH CAP: When targeted by a ranged combat attack, Hawkeye can use Shape Change</special_1>
+			<special_2 type="trait">LOCK ON TARGET: When Hawkeye hits an opposing character with a ranged combat attack, modifiy
+									the defense value of the hit target by -1 this turn.</special_2>
+			<special_3 type="trait">RIDING ON AN ARROW: When Hawkeye hits an opposing character with a ranged combat attack, after
+									actions resolve you may place an adjacent frinedly character with the Avengers keyword and
+									Tiny Damage Symbol adjacent to a hit target.</special_3>
+			<special_4></special_4>
+		</fig>
+		<fig>
+			<number>007</number>
+			<name>Redwing</name>
+			<affiliation>Avengers Initiative</affiliation>
+			<points>20</points>
+			<clicks>3</clicks>
+			<keywords>Avengers, Robot, Soldier</keywords>
+			<rarity>Rare</rarity>
+			<special_1 type="attack">AERIAL RECON: Give Redwing a free action and choose an opposing character within 4 squares
+									and line of fire. Modify the chosen character's defense by -1 until your next turn. 
+									(UNIQUE MODIFIER-Caracters can only be modified by one effect of this name.)</special_1>
+			<special_2></special_2>
+			<special_3></special_3>
+			<special_4></special_4>
+		</fig>
+		<fig>
+			<number>008</number>
+			<name>Falcon</name>
+			<affiliation>Avengers Initiative</affiliation>
+			<points>85</points>
+			<clicks>6</clicks>
+			<keywords>Avengers, Soldier</keywords>
+			<rarity>Rare</rarity>
+			<special_1 type="trait">+5 I'M WITH CAP: When targeted by a ranged combat attack, Falcon can use Shape Change</special_1>
+			<special_2 type="trait">ENHANCED GOGGLES: Falcon can use probability Control, but only to reroll his own attacks.
+									When Falcon attacks a character wuth Tiny Damage Symbol, modify that character's defense 
+									value by -1</special_2>
+			<special_3></special_3>
+			<special_4></special_4>
+		</fig>
+		<fig>
+			<number>009</number>
+			<name>Winter Soldier</name>
+			<affiliation>No Affiliation</affiliation>
+			<points>90</points>
+			<clicks>6</clicks>
+			<keywords>Hydra, Past, Soldier, Spy</keywords>
+			<rarity>Rare</rarity>
+			<special_1 type="improved">NO DISTRACTIONS: Improved Targeting: Ingnores Hindering; May make a ranged combat attack
+										against any opposing character within range and line of fire, even if that character 
+										is in an adjacent square.</special_1>
+			<special_2 type="trait">+5 I'M WITH CAP: When targeted by a ranged combat attack, Winter Soldier can use Shape Change</special_2>
+			<special_3></special_3>
+			<special_4></special_4>
+		</fig>
+		<fig>
+			<number>010</number>
+			<name>Giant-Man</name>
+			<affiliation>No Affiliation</affiliation>
+			<points>75</points>
+			<clicks>6</clicks>
+			<keywords>Avengers</keywords>
+			<rarity>Rare</rarity>
+			<special_1 type="trait">+5 I'M WITH CAP: When targeted by a ranged combat attack, Giant-Man can use Shape Change</special_1>
+			<special_2 type="attack">SWAT!: Give Giant-Man a power action to make a close combat attack targeting all opposing characters
+									within 2 squares and line of fire. Instead of normal damage, adjacent hit targets are dealt 3
+									damage and non-adjacent hit targets are delt 2 damage.</special_2>
+			<special_3></special_3>
+			<special_4></special_4>
+		</fig>
+		<fig>
+			<number>011</number>
+			<name>Agent 13</name>
+			<affiliation>S.H.I.E.L.D</affiliation>
+			<points>50</points>
+			<clicks>4</clicks>
+			<keywords>S.H.I.E.L.D, Spy</keywords>
+			<rarity>Mass Market Exclusive</rarity>
+			<special_1 type="improved">BASIC TRAINING: Improved Movement: Ignores Hindering Terrain</special_1>
+			<special_2 type="damage">YOU WON'T KNOW WHO TO TRUST: Agent 13 can use Outwit. She may use it to counter team abilities</special_2>
+			<special_3></special_3>
+			<special_4></special_4>
+		</fig>
+		<fig>
+			<number>012</number>
+			<name>Crossbones</name>
+			<affiliation>No Affiliation</affiliation>
+			<points>90</points>
+			<clicks>6</clicks>
+			<keywords>Hydra, Soldier</keywords>
+			<rarity>Mass Market Exclusive</rarity>
+			<special_1 type="trait">TRAINING: UNIQUE MODIFIER - Adjacent opposing characters modify their attack and defense by -1</special_1>
+			<special_2 type="damage">SOW INSURRECTION: Crossbones can use perplex. When he does, after actions resolve you may counter
+									a team ability the target opposing character can use until your next turn.</special_2>
+			<special_3></special_3>
+			<special_4></special_4>
+		</fig>
+		<fig>
+			<number>013</number>
+			<name>Black Panther</name>
+			<affiliation>No Affiliation</affiliation>
+			<points>80</points>
+			<clicks>6</clicks>
+			<keywords>Avengers, Martial Artist, Ruler, Scientist</keywords>
+			<rarity>Mass Market Exclusive</rarity>
+			<special_1 type="trait">+5 IRON MAN IS RIGHT: Black Panther can use Plasticity</special_1>
+			<special_2 type="trait">WAKANDAN TECH: Black Panther can use Precision Strike.</special_2>
+			<special_3 type="speed">HE'S AROUND HERE SOMEWHERE: Black Panther can use Sidestep. Opposing characters 4 or more squares
+									from him can't draw a line of fire to him.</special_3>
+			<special_4></special_4>
+		</fig>
+		<fig>
+			<number>014</number>
+			<name>Vision</name>
+			<affiliation>Avengers Initiative</affiliation>
+			<points>125</points>
+			<clicks>7</clicks>
+			<keywords>Avengers, Robot</keywords>
+			<rarity>Mass Market Exclusive</rarity>
+			<special_1 type="trait">+5 IRON MAN IS RIGHT: Vision can use Plasticity</special_1>
+			<special_2></special_2>
+			<special_3></special_3>
+			<special_4></special_4>
+		</fig>
+	</figureList>
+</setList>
+
