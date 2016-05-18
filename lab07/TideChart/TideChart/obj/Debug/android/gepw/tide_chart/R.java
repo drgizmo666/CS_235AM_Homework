@@ -10,6 +10,14 @@ package gepw.tide_chart;
 public final class R {
     public static final class attr {
     }
+    public static final class id {
+        public static final int datePromptTextView=0x7f050002;
+        public static final int listViewButton=0x7f050004;
+        public static final int promptTextView=0x7f050000;
+        public static final int stocksListView=0x7f050005;
+        public static final int tideDatePicker=0x7f050003;
+        public static final int tideSpinner=0x7f050001;
+    }
     public static final class layout {
         public static final int main=0x7f030000;
     }
