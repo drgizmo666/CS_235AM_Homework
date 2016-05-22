@@ -79,6 +79,13 @@ namespace TideChart
 				StartActivity(tideListIntent);
 			};
 		}
+
+		protected override void OnNewIntent (Intent intent)
+		{
+			base.OnNewIntent (intent);
+
+			Intent = intent;
+		}
 	}
 }
 

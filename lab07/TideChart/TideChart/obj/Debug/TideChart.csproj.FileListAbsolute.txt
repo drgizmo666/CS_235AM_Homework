@@ -15,5 +15,6 @@ C:\Users\james\Documents\GitHub\CS_235AM_Homework\lab07\TideChart\TideChart\obj\
 C:\Users\james\Documents\GitHub\CS_235AM_Homework\lab07\TideChart\TideChart\obj\Debug\uploadflags.txt
 C:\Users\james\Documents\GitHub\CS_235AM_Homework\lab07\TideChart\TideChart\obj\Debug\res\layout\tidemain.xml
 C:\Users\james\Documents\GitHub\CS_235AM_Homework\lab07\TideChart\TideChart\obj\Debug\res\layout\tidelistview.xml
+C:\Users\james\Documents\GitHub\CS_235AM_Homework\lab07\TideChart\TideChart\obj\Debug\TideChart.csprojResolveAssemblyReference.cache
 C:\Users\james\Documents\GitHub\CS_235AM_Homework\lab07\TideChart\TideChart\obj\Debug\TideChart.dll.mdb
 C:\Users\james\Documents\GitHub\CS_235AM_Homework\lab07\TideChart\TideChart\bin\Debug\TideChart.dll.mdb
