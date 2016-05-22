@@ -2,7 +2,7 @@ TideChart.MainActivity, TideChart;md5849138f9ddeeb00762373596bebb64b4.MainActivi
 TideChart.MainActivity, TideChart, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md5849138f9ddeeb00762373596bebb64b4.MainActivity
 TideChart.MainActivity;md5849138f9ddeeb00762373596bebb64b4.MainActivity
 tidechart.MainActivity;md5849138f9ddeeb00762373596bebb64b4.MainActivity
-TideChart.TideAdapter, TideChart;md5849138f9ddeeb00762373596bebb64b4.TideAdapter
-TideChart.TideAdapter, TideChart, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md5849138f9ddeeb00762373596bebb64b4.TideAdapter
-TideChart.TideAdapter;md5849138f9ddeeb00762373596bebb64b4.TideAdapter
-tidechart.TideAdapter;md5849138f9ddeeb00762373596bebb64b4.TideAdapter
+TideChart.tideListView, TideChart;md5849138f9ddeeb00762373596bebb64b4.tideListView
+TideChart.tideListView, TideChart, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md5849138f9ddeeb00762373596bebb64b4.tideListView
+TideChart.tideListView;md5849138f9ddeeb00762373596bebb64b4.tideListView
+tidechart.tideListView;md5849138f9ddeeb00762373596bebb64b4.tideListView

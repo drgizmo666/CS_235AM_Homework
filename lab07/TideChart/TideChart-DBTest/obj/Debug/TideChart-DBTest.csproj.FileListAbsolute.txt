@@ -1,6 +1,0 @@
-C:\Users\james\Documents\GitHub\CS_235AM_Homework\lab07\TideChart\TideChart-DBTest\bin\Debug\TideChart-DBTest.exe
-C:\Users\james\Documents\GitHub\CS_235AM_Homework\lab07\TideChart\TideChart-DBTest\bin\Debug\TideChart-DBTest.pdb
-C:\Users\james\Documents\GitHub\CS_235AM_Homework\lab07\TideChart\TideChart-DBTest\bin\Debug\DAL.dll
-C:\Users\james\Documents\GitHub\CS_235AM_Homework\lab07\TideChart\TideChart-DBTest\bin\Debug\DAL.pdb
-C:\Users\james\Documents\GitHub\CS_235AM_Homework\lab07\TideChart\TideChart-DBTest\obj\Debug\TideChart-DBTest.exe
-C:\Users\james\Documents\GitHub\CS_235AM_Homework\lab07\TideChart\TideChart-DBTest\obj\Debug\TideChart-DBTest.pdb

@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="1" android:versionName="1.0" package="gepw.tide_chart">
-  <!--suppress UsesMinSdkAttributes-->
-  <uses-sdk android:minSdkVersion="16" />
+  <uses-sdk android:minSdkVersion="16" android:targetSdkVersion="23" />
   <uses-permission android:name="android.permission.INTERNET" />
   <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
   <application android:allowBackup="true" android:icon="@mipmap/icon" android:label="@string/app_name" android:name="mono.android.app.Application" android:debuggable="true">
-    <activity android:icon="@mipmap/icon" android:label="Tide Chart for Dick Point Station" android:name="md5849138f9ddeeb00762373596bebb64b4.MainActivity">
+    <activity android:icon="@mipmap/icon" android:label="Tillamook Bay Tide Chart" android:launchMode="singleInstance" android:name="md5849138f9ddeeb00762373596bebb64b4.MainActivity">
       <intent-filter>
         <action android:name="android.intent.action.MAIN" />
         <category android:name="android.intent.category.LAUNCHER" />
       </intent-filter>
     </activity>
+    <activity android:label="Tillamook Bay Tide Chart" android:launchMode="singleInstance" android:name="md5849138f9ddeeb00762373596bebb64b4.tideListView" />
     <provider android:name="mono.MonoRuntimeProvider" android:exported="false" android:initOrder="2147483647" android:authorities="gepw.tide_chart.mono.MonoRuntimeProvider.__mono_init__" />
     <!--suppress ExportedReceiver-->
     <receiver android:name="mono.android.Seppuku">

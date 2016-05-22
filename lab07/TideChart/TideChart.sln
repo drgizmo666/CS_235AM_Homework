@@ -7,8 +7,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DAL", "DAL\DAL.csproj", "{5
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TideChart-Console", "TideChart-Console\TideChart-Console.csproj", "{952343D3-A2BD-4DE3-AD63-30ECC03ABB38}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TideChart-DBTest", "TideChart-DBTest\TideChart-DBTest.csproj", "{F84E60EF-D755-4FA7-BB73-F1E611E2E2E6}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,9 +25,5 @@ Global
 		{952343D3-A2BD-4DE3-AD63-30ECC03ABB38}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{952343D3-A2BD-4DE3-AD63-30ECC03ABB38}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{952343D3-A2BD-4DE3-AD63-30ECC03ABB38}.Release|Any CPU.Build.0 = Release|Any CPU
-		{F84E60EF-D755-4FA7-BB73-F1E611E2E2E6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{F84E60EF-D755-4FA7-BB73-F1E611E2E2E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{F84E60EF-D755-4FA7-BB73-F1E611E2E2E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{F84E60EF-D755-4FA7-BB73-F1E611E2E2E6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

@@ -17,14 +17,19 @@ namespace TideChartConsole
 			var db = new SQLiteConnection (dbPath);
 		
 			// Create a Tides table
-			//db.DropTable<Tides>();
+			db.DropTable<Tides>();
 			if (db.CreateTable<Tides>() == 0)
 			{
 				// A table already exixts, delete any data it contains
 				db.DeleteAll<Tides> ();
 			}
 
-			AddTidesToDb (db, 9437381, "Dick Point", "DickPoint.xml");
+			AddTidesToDb (db, "9437381", "Dick Point", "DickPoint.xml");
+			AddTidesToDb (db, "9437581", "Barview", "Barview.xml");
+			AddTidesToDb (db, "TWC0865", "Bay City", "BayCity.xml");
+			AddTidesToDb (db, "9437540", "Garibaldi", "Garibaldi.xml");
+			AddTidesToDb (db, "9437331", "Hoquarten Slough", "HoquartenSlough.xml");
+			AddTidesToDb (db, "TWC0863", "Miami Cove", "MiamiCove.xml");
 			//Tides singleItem = db.Get<Tides> (x => x.stationID == 9437381);
 			//Console.WriteLine ("Predicton for Dick Point: {0} {1}", singleItem.prediction, singleItem.highLow);
 
@@ -32,7 +37,7 @@ namespace TideChartConsole
 		
 		}
 
-		private static void AddTidesToDb(SQLiteConnection db, int statId, string name ,string file)
+		private static void AddTidesToDb(SQLiteConnection db, string statId, string name ,string file)
 		{
 			var reader = new XmlFileReader(File.Open(@"../../../TideChart-Console/DAL/" + file, FileMode.Open));
 			var dataList = reader.TideList;
